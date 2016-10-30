@@ -1,0 +1,8 @@
+{
+    "name": "vscode-boilerplate-electron-es2015-react",
+    "productName": "vscode-boilerplate-electron-es2015-react",
+    "description": "A boilerplate project set up for Electron + ES2015 + React.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "dstrekelj <domagojstrekelj@gmail.com>"
+}

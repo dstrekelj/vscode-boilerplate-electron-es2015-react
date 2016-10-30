@@ -2,6 +2,17 @@
   "name": "vscode-boilerplate-electron-es2015-react",
   "version": "1.0.0",
   "description": "A boilerplate project set up for Electron + ES2015 + React.",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "webpack --config webpack.config.dev.js --display-error-details",
+    "dev:start": "electron ./dev",
+    "dev:watch": "webpack --config webpack.config.dev.js --watch",
+    "app:build": "webpack --config webpack.config.app.js --p --progress",
+    "app:distribute": "npm run app:build && npm run app:package",
+    "app:package": "electron-packager ./app vscode-boilerplate-electron-es2015-react --out ./build --overwrite",
+    "app:start": "electron ./app"
+    
+  },
   "author": "dstrekelj <domagojstrekelj@gmail.com>",
   "license": "IDGAF",
   "devDependencies": {

@@ -1,2 +1,5 @@
 .vscode/*
+app/*
+build/*
+dev/*
 node_modules/*
