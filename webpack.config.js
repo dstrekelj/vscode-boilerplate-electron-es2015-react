@@ -4,6 +4,11 @@ var path = require('path'),
 
 var DIR_IN = path.join(__dirname, 'source');
 
+/**
+ * This module defines the base Webpack configuration from which the
+ * `dev` and `app` configurations borrow.
+ */
+
 module.exports = {
     context: DIR_IN,
     devtool: '#inline-source-map',

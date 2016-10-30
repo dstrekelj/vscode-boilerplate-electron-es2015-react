@@ -1,5 +1,10 @@
 var config = require('./webpack.config');
 
+/**
+ * This module defines the Webpack configuration to be used when the
+ * application is developed.
+ */
+
 module.exports = {
     context: config.context,
     devtool: config.devtool,
